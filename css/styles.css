@@ -1,0 +1,129 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+.frame {
+  height: 598px;
+  width: 350px;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -299px;
+  margin-left: -175px;
+}
+.image-box {
+  position: relative;
+  width: 100%;
+  max-width: 302px;
+  margin: 24px 24px 24px 24px;
+}
+.square-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.2s ease;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+}
+.image-box:hover .overlay {
+  opacity: 0.5;
+}
+.icon {
+  color: hsl(0, 0%, 100%);
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  margin: 13.4px 0 7px 24px;
+  padding-top: 10px;
+}
+h1:hover {
+  font-size: 20px;
+  color: hsl(178, 100%, 50%);
+  margin: 13.4px 0 7px 24px;
+  padding-top: 10px;
+}
+p {
+  display: inline-block;
+  color: hsl(215, 51%, 70%);
+}
+.main-paragraph {
+  margin: 6px 0 18px 24px;
+  font-size: 18px;
+}
+.name-span {
+  color: hsl(0, 0%, 100%);
+}
+.ethereum-icon {
+  margin-left: 24px;
+  margin-right: 4px;
+  position: absolute;
+  bottom: 101px;
+}
+.ethereum-meter {
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+  margin-left: 43px;
+}
+.clock-icon {
+  position: absolute;
+  right: 103px;
+  bottom: 101px;
+}
+.countdown {
+  position: absolute;
+  right: 24px;
+}
+
+.hr {
+  width: 305px;
+  height: 1px;
+  border: 0;
+  background-color: hsl(215, 32%, 27%);
+  border-radius: 1px;
+  margin-bottom: 15px;
+}
+.avatar-pic {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  border: 1px;
+  margin-left: 24px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 100%);
+  margin-right: 18px;
+}
+.attribution {
+  font-size: x-small;
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  color: hsl(215, 51%, 70%);
+}
+.credit-row {
+  position: absolute;
+  margin-top: 5px;
+}
+.name-span:hover {
+  color: hsl(178, 100%, 50%);
+}
